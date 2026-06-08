@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Script Standards"
+  short_description: "Shell test script structure and logging rules"
+  default_prompt: "Write or refactor a shell test script in this workspace following the standard structure for initialization, output layout, fail-fast behavior, persistent logs, and script header documentation."
