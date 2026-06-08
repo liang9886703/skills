@@ -5,9 +5,6 @@
 ## 📑 目录
 
 - [代码阅读 (code-reading)](#代码阅读-code-reading)
-- [功能开发 (feature-development)](#功能开发-feature-development)
-- [前端开发 (frontend-development)](#前端开发-frontend-development)
-- [元能力 (meta-skills)](#元能力-meta-skills)
 - [计划中的分类](#计划中的分类)
 
 ---
@@ -61,79 +58,7 @@
 
 **相关资源**:
 - 🔧 安装说明: [graphify/scripts/README.md](./code-reading/graphify/scripts/README.md)
-- 📦 离线包: `packages/graphifyy-0.5.0+baidu1-py3-none-any.whl`
-
----
-
-## 功能开发 (feature-development)
-
-针对具体功能实现和开发工作流的技能。
-
-### python-api-debugging
-
-**描述**: Python API 调试和问题诊断技能，用于快速定位和解决 API 相关问题
-
-**主要特性**:
-- 🐛 **快速诊断**: 系统化的问题排查流程
-- 📋 **调试清单**: 完整的检查项目和常见问题
-- 🔧 **实战工具**: 调试脚本和工具示例
-- 📚 **最佳实践**: API 设计和测试最佳实践
-
-**适用场景**:
-- 解决 Python API 的运行时错误
-- 性能瓶颈分析和优化
-- 集成测试失败的排查
-- API 兼容性问题诊断
-
-**位置**: `feature-development/python-api-debugging/SKILL.md`
-
----
-
-## 前端开发 (frontend-development)
-
-前端框架和组件优化相关的技能。
-
-### react-performance
-
-**描述**: React 应用性能优化技能，涵盖渲染优化、内存管理和性能监测
-
-**主要特性**:
-- ⚡ **渲染优化**: 减少不必要的重新渲染
-- 🧠 **内存管理**: 防止内存泄漏和优化内存使用
-- 📊 **性能监测**: 使用工具监测和分析性能指标
-- 🎯 **最佳实践**: React 性能优化的实战建议
-
-**适用场景**:
-- 优化 React 应用的加载时间
-- 减少运行时的性能瓶颈
-- 提升用户交互体验
-- 大型 React 项目的性能审查
-
-**位置**: `frontend-development/react-performance/SKILL.md`
-
----
-
-## 元能力 (meta-skills)
-
-通用工具和流程自动化相关的技能。
-
-### github-actions-triage
-
-**描述**: GitHub Actions 工作流分类和自动化技能，用于管理和优化 CI/CD 流程
-
-**主要特性**:
-- 🤖 **工作流自动化**: 自动化 GitHub Actions 配置和管理
-- 📌 **问题分类**: 自动分类和标记 issue 和 PR
-- 🔍 **日志分析**: 快速定位失败的工作流
-- 🏗️ **流程优化**: 优化 CI/CD 管道和构建流程
-
-**适用场景**:
-- 自动化 issue 和 PR 的分类标记
-- 监控和优化 CI/CD 流程
-- 减少手动维护工作
-- 提高工程效率
-
-**位置**: `meta-skills/github-actions-triage/SKILL.md`
+- 📦 离线包: `packages/graphifyy-0.5.0+offline1-py3-none-any.whl`
 
 ---
 
@@ -150,8 +75,17 @@
 ### 🔎 information-search (信息搜索)
 计划添加信息查询、搜索和数据采集相关的 skills。
 
+### 🔨 feature-development (功能开发)
+计划添加功能实现和开发相关的 skills。
+
+### 🎨 frontend-development (前端开发)
+计划添加前端框架和组件开发相关的 skills。
+
 ### 🔨 script-development (脚本开发)
 计划添加脚本编写、任务自动化相关的 skills。
+
+### 📦 meta-skills (元能力)
+计划添加通用工具和流程自动化相关的 skills。
 
 ### 📦 other (其他)
 用于分类的其他 skills。
