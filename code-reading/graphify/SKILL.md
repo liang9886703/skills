@@ -1,16 +1,16 @@
 ---
 name: graphify
-description: 将代码库、文档、论文、图片等多模态内容转换成知识图谱，大幅减少 token 消耗（最高 71.5x）。百度内部定制版 v0.5.0，包含离线安装包，无需连接 PyPI。
+description: 将代码库、文档、论文、图片等多模态内容转换成知识图谱，大幅减少 token 消耗（最高 71.5x）。离线定制版 v0.5.0，包含离线安装包。
 ---
 
-# Graphify - 知识图谱构建工具（百度内部离线版）
+# Graphify - 知识图谱构建工具（离线版）
 
 将代码库、文档、论文、图片等多模态内容转换成知识图谱，大幅减少 token 消耗（最高 71.5x）。
 
 ## 版本说明
 
-- **版本号**: 0.5.0+baidu1
-- **特性**: 百度内部定制版，包含离线安装包
+- **版本号**: 0.5.0+offline1
+- **特性**: 离线定制版，包含离线安装包
 - **更新内容**:
   - 升级到上游 0.5.0 版本
   - 包含最新功能和性能优化
@@ -125,7 +125,7 @@ Graphify 通过知识图谱显著减少 LLM 的 token 消耗：
 
 ### 离线安装说明
 
-本 skill 包含预构建的 `graphifyy-0.5.0+baidu1-py3-none-any.whl` 包，支持以下安装方式：
+本 skill 包含预构建的 `graphifyy-0.5.0+offline1-py3-none-any.whl` 包，支持以下安装方式：
 
 1. 用户级安装（推荐）
 2. 系统级安装
@@ -135,8 +135,8 @@ Graphify 通过知识图谱显著减少 LLM 的 token 消耗：
 
 ### 版本管理
 
-- **版本号格式**: `x.y.z+baidu1`
-- **baidu1 标识**: 表示这是百度内部定制版本
+- **版本号格式**: `x.y.z+offline1`
+- **版本号 +offline1 标识**: 表示这是离线定制版本
 - **兼容性**: 与上游版本 API 完全兼容
 
 ## 故障排除
@@ -175,21 +175,20 @@ pip install graphifyy[all]
 
 ## 更新日志
 
-### v0.5.0+baidu1 (2026-04-27)
+### v0.5.0+offline1 (2026-04-27)
 - 升级到上游 0.5.0 版本
 - 包含最新功能和性能改进
 - 优化离线安装流程
 - 更新依赖包版本
 
-### v0.4.16+baidu1 (2026-04-22)
-- 初始百度内部定制版本
+### v0.4.16+offline1 (2026-04-22)
+- 初始离线定制版本
 - 支持离线安装
 - 无需连接 PyPI
 
 ## 参考资源
 
 - 原始项目: https://github.com/safishamsi/graphify
-- iCode 仓库: https://console.cloud.baidu-int.com/devops/icode/repos/baidu/sc-dae/graphify
 - 详细使用文档: 参见 `references/extraction-workflow.md`
 
 ## 适用场景
@@ -201,7 +200,7 @@ pip install graphifyy[all]
 
 ## 注意事项
 
-- 本版本为百度内部定制版，版本号带有 `+baidu1` 标识
+- 本版本为离线定制版，版本号带有 `+offline1` 标识
 - 已包含完整的离线安装包，首次使用会自动安装
 - 如需更新，请重新下载最新的 skill 包
 - 不建议通过 PyPI 更新，以保持版本一致性
