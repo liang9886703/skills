@@ -2,6 +2,13 @@
 name: python-api-debugging
 description: >-
   提供 Python API 故障定位流程，在用户提到 500 报错、超时、日志异常等关键词时触发。
+# 可选字段：
+# targets: [claude, cursor]
+# license: MIT
+# allowed-tools: "Bash(python:*) WebFetch"
+# metadata:
+#   author: liang9886703
+#   version: 1.0.0
 ---
 
 # Python API 故障排查

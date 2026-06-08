@@ -2,6 +2,13 @@
 name: react-performance
 description: >-
   提供 React 页面性能优化排查步骤，在用户提到卡顿、首屏慢、重渲染等关键词时触发。
+# 可选字段：
+# targets: [claude, cursor]
+# license: MIT
+# allowed-tools: "Bash(python:*) WebFetch"
+# metadata:
+#   author: liang9886703
+#   version: 1.0.0
 ---
 
 # React 性能优化

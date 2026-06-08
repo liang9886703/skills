@@ -2,6 +2,13 @@
 name: github-actions-triage
 description: >-
   提供 GitHub Actions 失败诊断流程，在用户提到 CI 红灯、workflow failed、构建失败等关键词时触发。
+# 可选字段：
+# targets: [claude, cursor]
+# license: MIT
+# allowed-tools: "Bash(python:*) WebFetch"
+# metadata:
+#   author: liang9886703
+#   version: 1.0.0
 ---
 
 # GitHub Actions 故障分诊
