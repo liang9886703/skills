@@ -47,15 +47,9 @@ skills/
 ├── data-visualization/
 ├── documentation-writing/
 ├── feature-development/
-│   └── python-api-debugging/
-│       └── SKILL.md
 ├── frontend-development/
-│   └── react-performance/
-│       └── SKILL.md
 ├── information-search/
 ├── meta-skills/
-│   └── github-actions-triage/
-│       └── SKILL.md
 ├── script-development/
 └── other/
 ```
